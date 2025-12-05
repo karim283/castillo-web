@@ -22,7 +22,7 @@ export default function Navbar() {
     { to: "/drinks", label: "DRINKS" },
     { to: "/Food", label: "FOOD" },
     { to: "/Coffee", label: "COFFEE BEANS" },
-    { to: "/about", label: "ABOUT US" },
+    { to: "/About", label: "ABOUT US" },
     { to: "/contact", label: "CONTACT" },
   ];
 
@@ -95,7 +95,7 @@ export default function Navbar() {
               ✕
             </button>
 
-            <div className="flex flex-col mt-20 space-y-6 p-6 bg-black/90 backdrop-blur">
+            <div className="flex flex-col mt-20 space-y-6 p-6 bg-black/95 backdrop-blur">
               {links.map((l) => (
                 <NavLink
                   key={l.to}
