@@ -95,7 +95,7 @@ export default function Navbar() {
               ✕
             </button>
 
-            <div className="flex flex-col mt-20 space-y-6 p-6 bg-black/95 backdrop-blur">
+            <div className="flex flex-col mt-16 space-y-6 p-6 bg-black/95 backdrop-blur">
               {links.map((l) => (
                 <NavLink
                   key={l.to}
