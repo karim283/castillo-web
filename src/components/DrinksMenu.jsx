@@ -236,7 +236,6 @@ export default function DrinksMenu() {
     },
   ];
 
-  // new categories: smoothies and soft drinks
   const smoothies = [
     {
       name: "Strawberry Banana",
@@ -274,35 +273,34 @@ export default function DrinksMenu() {
 
   const softDrinks = [
     {
-      name: "Coca‑Cola",
+      name: "Freez",
       origin: "CAN | 330 ml",
-      price: "30 EG",
+      price: "40 EG",
       description: "Classic carbonated cola — refreshing and bubbly.",
     },
     {
-      name: "Diet Coke",
+      name: "Redbull",
       origin: "CAN | 330 ml",
-      price: "30 EG",
+      price: "85 EG",
       description: "Low-calorie cola option with same crisp taste.",
     },
+    // {
+    //   name: "Sprite",
+    //   origin: "CAN | 330 ml",
+    //   price: "30 EG",
+    //   description: "Lemon-lime soda — light and fizzy.",
+    // },
+    // {
+    //   name: "Fanta",
+    //   origin: "CAN | 330 ml",
+    //   price: "30 EG",
+    //   description: "Orange soda — sweet and citrusy.",
+    // },
     {
-      name: "Sprite",
-      origin: "CAN | 330 ml",
-      price: "30 EG",
-      description: "Lemon-lime soda — light and fizzy.",
-    },
-    {
-      name: "Fanta",
-      origin: "CAN | 330 ml",
-      price: "30 EG",
-      description: "Orange soda — sweet and citrusy.",
-    },
-    {
-      name: "Tonic Water",
+      name: "Water",
       origin: "BOTTLE | 200 ml",
-      price: "35 EG",
-      description:
-        "Bitter-sweet carbonated mixer — great with spirits or on its own.",
+      price: "8 EG",
+      description: "Pure water for a refreshing and hydrating drink.",
     },
   ];
 

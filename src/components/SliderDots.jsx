@@ -2,7 +2,7 @@ export default function SliderDots() {
   const items = ["01", "02", "03", "04", "05"];
 
   return (
-    <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-6">
+    <div className="relative bottom-10 left-1/2 -translate-x-1/2 flex justify-center items-center gap-6">
       {items.map((n, i) => (
         <span
           key={n}

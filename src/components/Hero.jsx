@@ -37,7 +37,7 @@ export default function Hero() {
       `}</style>
 
         {/* TOP LEFT LOGO BLOCK */}
-        <div className="mt-10">
+        <div className="mt-10 mb-10 md:mb-0">
           <div>
             <h1 className="text-4xl leading-none font-harmond">
               CAFE <br /> Castillo
@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
 
         {/* IMAGES ROW - side by side on mobile, wrap on desktop */}
-        <div className="flex justify-center gap-2 sm:gap-4 md:gap-8 lg:gap-16 w-full flex-nowrap md:flex-wrap overflow-x-auto md:overflow-visible items-end md:items-start">
+        <div className="flex justify-center gap-2 sm:gap-4 md:gap-8 lg:gap-16 w-full flex-nowrap md:flex-wrap overflow-x-scroll md:overflow-visible items-end md:items-start">
           {/* LEFT DRINK IMAGE - pushed higher */}
           <div className="w-40 sm:w-48 md:w-60 h-48 sm:h-64 md:h-80 rounded-t-[150px] sm:rounded-t-[200px] md:rounded-t-[230px] overflow-hidden bg-neutral-800 self-start md:self-end flex-shrink-0 md:flex-shrink -translate-y-6 sm:-translate-y-8 md:-translate-y-12 lg:-translate-y-16">
             <img
@@ -88,8 +88,8 @@ export default function Hero() {
         </div>
 
         {/* RIGHT-SIDE BLOCK */}
-        <div className="flex justify-center md:justify-end w-full mt-10 pb-10">
-          <div className="w-64 px-4 md:px-0">
+        <div className="flex justify-center md:justify-end w-full mt-10     pb-10">
+          <div className="w-64 px-4 md:ml-20 md:w-48 md:px-0 lg:w-64 ">
             <p className="text-sm leading-relaxed opacity-80 mb-4 font-inter ">
               Café Regina is not only the oldest, but also the nicest café in
               Alexandria and the surrounding area.
@@ -105,7 +105,7 @@ export default function Hero() {
         </div>
 
         {/* SLIDER DOTS */}
-        <div className="mt-16 pb-20">
+        <div className="mt-10 md:mt-32 lg:mt-20 pb-10">
           <SliderDots />
         </div>
       </section>
@@ -113,4 +113,3 @@ export default function Hero() {
     </div>
   );
 }
-// ...existing code...
