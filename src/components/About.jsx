@@ -9,7 +9,8 @@ export default function About() {
         {/* Image */}
         <div className="w-full">
           <img
-            src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/476832083_638409735383212_3838694660693275378_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3nzrbcW6qgcQ7kNvwFSYKVc&_nc_oc=Adkm2ebGEKKSAqwLfkShHYCm8zhDeQIcpvz51UgRVJDZbXL1r_OFsumiYjlUU-Ur7cg&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=j4AuPilTo8NhEbDR20OwaA&oh=00_AfnDV6Ma6-bDsnuv4A1sTW3wwbLP01Zvm6G6hklI3Wq6mA&oe=6938FDCE"
+            // src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/476832083_638409735383212_3838694660693275378_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3nzrbcW6qgcQ7kNvwFSYKVc&_nc_oc=Adkm2ebGEKKSAqwLfkShHYCm8zhDeQIcpvz51UgRVJDZbXL1r_OFsumiYjlUU-Ur7cg&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=j4AuPilTo8NhEbDR20OwaA&oh=00_AfnDV6Ma6-bDsnuv4A1sTW3wwbLP01Zvm6G6hklI3Wq6mA&oe=6938FDCE"
+            src="src/assets/images/1.jpg"
             alt="Cafe"
             className="rounded-xl  md:rounded-t-full  w-full h-64 sm:h-80 md:h-[65vh] lg:h-full lg:object-fill object-cover shadow-lg"
           />

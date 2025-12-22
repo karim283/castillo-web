@@ -71,8 +71,9 @@ export default function Hero() {
           {/* RIGHT IMAGE - pushed lower */}
           <div className="w-40 sm:w-48 md:w-64 lg:w-[280px] h-48 sm:h-64 md:h-96 lg:h-[420px] rounded-t-[150px] sm:rounded-t-[220px] md:rounded-t-[240px] lg:rounded-t-[230px] overflow-hidden bg-neutral-800 self-end md:self-start flex-shrink-0 md:flex-shrink translate-y-6 sm:translate-y-8 md:translate-y-12 lg:translate-y-16">
             <img
+              src="src\assets\images\3.jpg"
               // src="https://images.unsplash.com/photo-1546171753-97d7676e4602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-              src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/474464265_624767213414131_2155799028519602657_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6roSJ0RojIAQ7kNvwHDwG-D&_nc_oc=AdmxS7KUh6aioU8u3cxT8RIW1OWy8Wy7CEZYd9nga6C9HJkPkYHaaTGaOYUAY4sqYTM&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=h4a1vUF3iC5rMQjzSSXeyw&oh=00_AflViZhSKpPhYYkh6P08ODsRoqqobspw2OloImv7uIyX2Q&oe=6936B911"
+              // src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/474464265_624767213414131_2155799028519602657_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6roSJ0RojIAQ7kNvwHDwG-D&_nc_oc=AdmxS7KUh6aioU8u3cxT8RIW1OWy8Wy7CEZYd9nga6C9HJkPkYHaaTGaOYUAY4sqYTM&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=h4a1vUF3iC5rMQjzSSXeyw&oh=00_AflViZhSKpPhYYkh6P08ODsRoqqobspw2OloImv7uIyX2Q&oe=6936B911"
               className="w-full h-full object-cover"
             />
           </div>
