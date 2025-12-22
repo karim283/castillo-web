@@ -54,8 +54,8 @@ export default function Hero() {
           {/* LEFT DRINK IMAGE - pushed higher */}
           <div className="w-40 sm:w-48 md:w-60 h-48 sm:h-64 md:h-80 rounded-t-[150px] sm:rounded-t-[200px] md:rounded-t-[230px] overflow-hidden bg-neutral-800 self-start md:self-end flex-shrink-0 md:flex-shrink -translate-y-6 sm:-translate-y-8 md:-translate-y-12 lg:-translate-y-16">
             <img
-              // src="https://img.freepik.com/premium-photo/cup-coffee-dark-background_1271802-15008.jpg?w=740"
-              src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/476832083_638409735383212_3838694660693275378_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3nzrbcW6qgcQ7kNvwFSYKVc&_nc_oc=Adkm2ebGEKKSAqwLfkShHYCm8zhDeQIcpvz51UgRVJDZbXL1r_OFsumiYjlUU-Ur7cg&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=3V3Hs5wvZHLhdt74VNyo1w&oh=00_AflBvpqPzkwsRptT8t4SzdfjrPEVrUJyHsJygPJ6q7ZKlw&oe=6936CB4E"
+              src="src\assets\images\1.jpg"
+              // src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/476832083_638409735383212_3838694660693275378_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3nzrbcW6qgcQ7kNvwFSYKVc&_nc_oc=Adkm2ebGEKKSAqwLfkShHYCm8zhDeQIcpvz51UgRVJDZbXL1r_OFsumiYjlUU-Ur7cg&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=3V3Hs5wvZHLhdt74VNyo1w&oh=00_AflBvpqPzkwsRptT8t4SzdfjrPEVrUJyHsJygPJ6q7ZKlw&oe=6936CB4E"
               className="w-full h-full object-cover"
             />
           </div>
